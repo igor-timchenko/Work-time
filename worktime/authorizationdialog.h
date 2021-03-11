@@ -6,6 +6,7 @@
 namespace Ui {
 class AuthorizationDialog;
 }
+
 /**
  * @brief Класс авторизации
  */
