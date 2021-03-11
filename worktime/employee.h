@@ -2,6 +2,7 @@
 #define EMPLOYEE_H
 
 #include <QString>
+
 /**
  * @brief Перечисление должностей в данной ИС
  */
@@ -24,6 +25,7 @@ struct taskie
     int done;       //! Признак того, что задание выполнено
     QString result; //! Результат выполнения
 };
+
 /**
  * @brief Класс пользователя системы
  */
