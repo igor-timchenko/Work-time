@@ -14,7 +14,7 @@ Administrator::~Administrator()
 
 void Administrator::readTasks()
 {
-    tasks.clear();
+    tasks.clear();  // Очищаем таксы
 
     QFile tasksFile("tasks.txt");
     if(tasksFile.open(QFile::ReadOnly))
