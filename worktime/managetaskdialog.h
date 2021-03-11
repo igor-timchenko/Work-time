@@ -31,7 +31,6 @@ public:
      */
     void readTasks();
 
-
 private slots:
     /**
      * @brief Кнопка "Распределить задачи"
