@@ -17,7 +17,6 @@ typedef struct _data
 
 } Employees;
 
-
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -89,7 +88,6 @@ private slots:
     void on_checkAccept_stateChanged(int arg1);
 
 private:
-
     bool showLoginScreen(); //! Проверка на авторизацию
     /**
      * @brief Функция, показывающая главное окно в зависимости от пользователя
