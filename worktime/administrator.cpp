@@ -4,7 +4,7 @@
 Administrator::Administrator(QString fio, size_t uniqueNumber, QString login, QString password, QString department)
     : Employee(fio, Positions::admininstrator, uniqueNumber, login, password, department)
 {
-    //readTasks();
+
 }
 
 Administrator::~Administrator()
