@@ -9,8 +9,6 @@
 #include <QTextStream>
 #include <QDebug>
 
-
-
 TasksDialog::TasksDialog(int type, QWidget *parent, Employee* emlpoyee) :
     QDialog(parent),
     ui(new Ui::TasksDialog)
