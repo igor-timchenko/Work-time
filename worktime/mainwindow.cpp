@@ -50,7 +50,6 @@ MainWindow::~MainWindow()
     employees.clear();
 }
 
-
 void MainWindow::on_exit_clicked()
 {
     setVisible(false);
@@ -330,7 +329,6 @@ bool MainWindow::showLoginScreen()
             id = getEmployee(login, password);
         }
     }
-
     id--;
     delete dia;
 
