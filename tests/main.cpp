@@ -8,7 +8,6 @@
 int main(int argc, char *argv[])
 {
     freopen("test.log", "w", stdout);
-    //QCoreApplication a(argc, argv);
 
     QTest::qExec(new test_administrator, argc, argv);
     QTest::qExec(new test_supervisor, argc, argv);
