@@ -29,7 +29,7 @@ void Administrator::readTasks()
             t.done = in.readLine().toInt();
             t.result = in.readLine();
 
-            tasks.push_front(t);
+            tasks.push_front(t);  // Добавляем задачу в начало строки
         }
 
         tasksFile.close();
