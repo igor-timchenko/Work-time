@@ -47,16 +47,6 @@ void Administrator::addTask(const QString& name, const QString& dep)
 
 void Administrator::removeTask(const QString &name)
 {
-//    QList<taskie>::const_iterator it = tasks.cbegin();
-//    for (; it != tasks.cend(); it++)
-//    {
-//        const taskie& current = *it;
-//        if ((*it).task == name)
-//        {
-//            tasks.removeOne(current);
-//        }
-//    }
-
     for (int i = 0; i < tasks.size(); i++)
     {
         if (tasks.at(i).task == name)
