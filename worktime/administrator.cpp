@@ -19,7 +19,7 @@ void Administrator::readTasks()
     QFile tasksFile("tasks.txt");
     if(tasksFile.open(QFile::ReadOnly))
     {
-        QTextStream in(&tasksFile);
+        QTextStream in(&tasksFile);  // Ссылка на файл таксов
         taskie t;
         while(!in.atEnd())
         {
